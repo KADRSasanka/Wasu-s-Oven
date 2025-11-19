@@ -55,3 +55,9 @@ nav ul li {
 nav ul li:hover {
     transform: scale(1.1) translateY(-2.5px);
 }
+
+/* Our Offers */
+.offers img {
+     width: 160px;
+     height: 160px;
+}
