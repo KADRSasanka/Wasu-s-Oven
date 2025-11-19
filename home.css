@@ -58,49 +58,49 @@ nav ul li:hover {
 
 /* carosel*/
 .slider-container {
-      top: -14.5vh;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      position: relative;
-      margin:0;
-      border-radius: 10px;
-    }
+    top: -14.5vh;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin:0;
+    border-radius: 10px;
+}
 .slide img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      display: block;
-    }
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
 .caption {
-      line-height: 0%;
-      margin-top: 89px;
-      margin-left: 389px;
-      font-size: 28px;
-      height: 230px;
-      width: 605px;
-      position: absolute;
-      top: 30%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      color: #7f5539;
-    }
-
+    margin-top: 89px;
+    margin-left: 389px;
+    height: 230px;
+    width: 605px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #7f5539;
+}
+.caption p {
+    line-height: 130%;
+    font-size: 22px;
+}
 .caption h2 {
-      font-family:'Franklin Gothic Medium';
-      font-size: 48px;
-      margin-bottom: 20px;
-      font-weight: bold;
-      color: #9C6644
-    }
-.caption img {
-      
-      width: 100px;
-      height: 100px;
-      margin-top: 20px;
-      margin: auto;
-    }
+    font-family:'Franklin Gothic Medium';
+    font-size: 60px;
+    margin-bottom: 2.5px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #9C6644
+}
+.caption img { 
+    width: 95px;
+    height: 95px;
+    margin: auto;
+}
    
 
 /* Our Offers */
@@ -139,6 +139,6 @@ figcaption {
 }
 
 .offers img {
-     width: 160px;
-     height: 160px;
+    width: 160px;
+    height: 160px;
 }
