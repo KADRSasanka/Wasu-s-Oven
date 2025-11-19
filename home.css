@@ -19,7 +19,6 @@ body {
 .hero-section {
     width: 100%;
     height: 100vh;
-    background-image: url("Resources/H2.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,9 +29,10 @@ nav {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: rgb(71, 167, 252);
+    background-color: transparent;
     display: flex;
     padding: 20px;
+    z-index: 10;
 }
 
 .navbar-logo {
@@ -48,3 +48,49 @@ nav ul li {
     color: #9c6644;
     margin-left: 20px;
 }
+
+/* carosel*/
+.slider-container {
+      top: -13vh;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+      margin:0;
+      border-radius: 10px;
+    }
+.slide img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+.caption {
+      line-height: 0%;
+      margin-top: 89px;
+      margin-left: 389px;
+      font-size: 28px;
+      height: 230px;
+      width: 605px;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #7f5539;
+    }
+
+.caption h2 {
+      font-family:'Franklin Gothic Medium';
+      font-size: 48px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #9C6644
+    }
+.caption img {
+      
+      width: 100px;
+      height: 100px;
+      margin-top: 20px;
+      margin: auto;
+    }
