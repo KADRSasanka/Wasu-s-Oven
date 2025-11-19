@@ -29,6 +29,22 @@ body {
 nav {
     width: 100%;
     position: relative;
-    height: 12.5vh;
+    height: auto;
     background-color: rgb(71, 167, 252);
+    display: flex;
+    padding: 20px;
+}
+
+.navbar-logo {
+    width: 65px;
+    height: 65px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    background-color: #f5f5f5;
+    color: #9c6644;
+    margin-left: 20px;
 }
