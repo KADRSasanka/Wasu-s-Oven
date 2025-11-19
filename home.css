@@ -84,7 +84,14 @@ nav ul li:hover {
 
 .cakes {
     display: flex;
-    margin-left: 223px;
+    gap: 50px;
+    margin: auto;
+}
+
+figcaption {
+    font-size: 16px;
+    text-align: center;
+    color: #7F5539;
 }
 
 .offers img {
