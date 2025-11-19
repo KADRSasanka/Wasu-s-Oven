@@ -48,3 +48,9 @@ nav ul li {
     color: #9c6644;
     margin-left: 20px;
 }
+
+/* Our Offers */
+.offers img {
+     width: 160px;
+     height: 160px;
+}
