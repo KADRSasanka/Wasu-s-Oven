@@ -29,10 +29,10 @@ nav {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: transparent;
+    /*background-color: rgb(71, 167, 252);*/
     display: flex;
-    padding: 20px;
-    z-index: 10;
+    padding: 20px 40px 20px 40px;
+    justify-content: space-between;
 }
 
 .navbar-logo {
@@ -42,11 +42,17 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */
 }
 nav ul li {
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
     color: #9c6644;
-    margin-left: 20px;
+    margin-left: 45px;
+    transition: transform 0.5s ease; 
+}
+nav ul li:hover {
+    transform: scale(1.1) translateY(-2.5px);
 }
 
 /* carosel*/
@@ -94,3 +100,40 @@ nav ul li {
       margin-top: 20px;
       margin: auto;
     }
+   
+
+/* Our Offers */
+
+/* .offers {
+    #
+} */
+
+.offers {
+    margin: 100px 191px;
+}
+
+.offers h2 {
+    font-size: 70px;
+    font-family: Franklin Gothic Heavy;
+    font-weight: 400;  
+    color: #9C6644;
+    text-align: center;
+}
+
+.offers p {
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #7F5539;
+    text-align: center;
+}
+
+.cakes {
+    display: flex;
+    margin-left: 223px;
+}
+
+.offers img {
+     width: 160px;
+     height: 160px;
+}
