@@ -71,9 +71,9 @@ nav ul li:hover {
 }
 /* carousol */
 .slider-container {
-      top: -14.5vh;
+      top: -22vh;
       width: 100%;
-      height: 100vh;
+      height: 120vh;
       overflow: hidden;
       position: relative;
       margin:0;
@@ -83,7 +83,6 @@ nav ul li:hover {
       display: flex;
       transition: transform 1s ease-in-out;
     }
-
     .slide {
       flex: 0 0 100%;
       opacity: 0.5;
@@ -159,7 +158,7 @@ nav ul li:hover {
     margin: auto;
     font-size: 20px;
     position: absolute;
-    top: 22%;
+    top: 24%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -178,12 +177,12 @@ nav ul li:hover {
     position: absolute;
     line-height: 1.2;
     text-align: center;
-    font-size: 28px;
-    top: 371px;
+    font-size: 22px;
+    top: 55vh;
     width: 50%;
     margin: auto;
     color: #7f5539;
-
+    letter-spacing: 2px;
 }
 
    
