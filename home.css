@@ -329,7 +329,7 @@ figcaption {
   /* Our Services */
 
   .services {
-    background-color: antiquewhite;
+    background-image: url(Resources/bg-#.jpg);
     margin-top: 8vh;
   }
 
