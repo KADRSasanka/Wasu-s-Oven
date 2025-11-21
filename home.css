@@ -67,6 +67,12 @@ nav ul li {
 nav ul li:hover {
     transform: scale(1.1) translateY(-2.5px);
 }
+nav ul li a {
+    color: #9c6644;
+}
+nav ul li a:hover {
+    color: #9C6644;
+}
 
 /* Hero Section */
 .hero-section {
