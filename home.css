@@ -185,21 +185,18 @@ nav ul li:hover {
     position: absolute;
     line-height: 1.2;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     top: 55vh;
-    width: 50%;
+    width: 35%;
     margin: auto;
     color: #7f5539;
-    letter-spacing: 2px;
+    margin-left: 5.5%;
 }
-
-   
 
 /* Offers Section */
 
 .offers {
-    margin: 0 10%;
-    margin-bottom: 10%;
+    margin: 0 10% 15vh 10%;
 }
 
 .offers h2 {
