@@ -329,9 +329,9 @@ figcaption {
   }
 
   /* About Us */
-  
+
   .box{
-            max-width: 800px;
+            max-width: 100%;
             margin: auto;
             background: white;
             padding: 40px 30px;
@@ -358,7 +358,6 @@ figcaption {
             color: #555;
         }
    
-
   /* Our Services */
 
   .services {
