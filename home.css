@@ -5,24 +5,23 @@
   font-weight: 900;   /* Heavy = 900 */
   font-style: normal;
 }
-@font-face {
-  font-family: "Fredoka One";
-  src: url("fonts/FredokaOne-Regular.woff2") format("woff2"),
-       url("fonts/FredokaOne-Regular.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-
 
 .fg-heavy {
   font-family: "Franklin Gothic Heavy", sans-serif;
 }
-
 .inter-regular {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+.fredoka-one {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 105.8;
 }
 
 * {
@@ -249,37 +248,37 @@ figcaption {
 .deliverybanner img {
     margin: auto;
     width: 100%;
-    height: 42vh;
+    height: 36vh;
     display: block;
     bottom: 50px;
 }
 
 .deliverybanner h2 {
     position: absolute;
-    top: 6vh;
+    top: 2vh;
     width: 100%;
     text-align: center;
     font-size: 41px;
     color: #9C6644;
-    font-family: "Fredoka One",sans-serif;
+    font-family: "Fredoka", sans-serif;
     line-height: 1.6;
 }
 .deliverybanner p {
     position: absolute;
-    top: 28vh;
+    top: 24vh;
     width: 100%;
     text-align: center;
     font-size: 24px;
     color: #7F5539;
-    font-family: 'Inter', sans-serif;
+    font-family: "Fredoka", sans-serif;
 }
 .delboy{
 
 }
 .delboy img {
     position: absolute;
-    top: 207vh;
-    left: 54%;
+    top: 203vh;
+    left: 55%;
     width: 50px;
     height: auto;
 }
