@@ -330,6 +330,7 @@ figcaption {
 
   .services {
     background-color: antiquewhite;
+    margin-top: 8vh;
   }
 
 
@@ -338,7 +339,7 @@ figcaption {
     font-style: Franklin Gothic Heavy;
     color: #9C6644;
     font-weight: 1000;
-
+    margin:2rem 0 2rem 0;
   }
 
 .service-icons  {
@@ -352,10 +353,14 @@ figcaption {
   background-color: #fff;
 }
 
-
+.service-icons figcaption  {
+  font-family: Inter;
+  margin: 1rem 1rem 3rem 1rem;
+}
 
 .service-icons img {
   width: 100px;
-  height: 100px;
-  margin: auto;
+  display: block;
+  justify-content: center;
+  margin: 2rem 3rem 2rem 11rem;
 }
