@@ -284,20 +284,22 @@ figcaption {
 }
 /* Category Section */
 
-  .category-section{
-    margin: 10px;
+.category-section{
+    margin: 12vh 0 12vh 0;
     text-align: center;
 }
-  .category-section h1{
+.category-section h1{
     font-size: 45px;
     margin-top: 50px;
-  }
-    .types {
+    font-family: 'Franklin Gothic Heavy';
+    color: #9C6644;
+}
+.types {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 64px;
-  }
+    margin-top: 5vh;
+}
 
   .type-track { 
     display: flex;
@@ -321,5 +323,47 @@ figcaption {
   .type p {
     margin-top: 20px;
     font-weight: bold;
-    font-size: 35px;
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 20px;
+    color: #7F5539;
   }
+
+  /* Our Services */
+
+  .services {
+    background-image: url(Resources/bg-services.jpg);
+    margin-top: 8vh;
+  }
+
+
+  .services h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Heavy';
+    color: #9C6644;
+    font-weight: 1000;
+    margin: 2rem 0 2rem 0;
+    font-size: 42px;
+  }
+
+.service-icons  {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: auto;
+}
+
+.service-icons figure{
+  background-color: #fff;
+}
+
+.service-icons figcaption  {
+  font-family: Inter;
+  margin: 1rem 1rem 3rem 1rem;
+}
+
+.service-icons img {
+  width: 100px;
+  display: block;
+  justify-content: center;
+  margin: 2rem 3rem 2rem 11rem;
+}
