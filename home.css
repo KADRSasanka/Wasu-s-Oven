@@ -284,20 +284,21 @@ figcaption {
 }
 /* Category Section */
 
-  .category-section{
-    margin: 10px;
+.category-section{
+    margin: 12vh 0 12vh 0;
     text-align: center;
 }
-  .category-section h1{
+.category-section h1{
     font-size: 45px;
     margin-top: 50px;
-  }
-    .types {
+    font-family: 'Franklin Gothic Heavy';
+}
+.types {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 64px;
-  }
+    margin-top: 5vh;
+}
 
   .type-track { 
     display: flex;
@@ -321,7 +322,8 @@ figcaption {
   .type p {
     margin-top: 20px;
     font-weight: bold;
-    font-size: 35px;
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 20px;
   }
 
   /* Our Services */
