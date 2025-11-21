@@ -328,6 +328,37 @@ figcaption {
     color: #7F5539;
   }
 
+  /* About Us */
+  
+  .box{
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 40px 30px;
+            border: 1px solid #7F5539;
+            border-radius: 6px;
+            text-align: center;
+            line-height: 1.7;
+            font-size: 18px;
+            color: #7F5539;
+        }
+        .highlight{
+            font-weight: bold;
+            color: #ad7c58;
+
+        }
+        .logo img{
+            width: 150px;
+            height: auto;
+        }
+        .bakery-name{
+            margin-top: 10px;
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: #555;
+        }
+   
+
   /* Our Services */
 
   .services {
