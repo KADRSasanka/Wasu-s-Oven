@@ -5,6 +5,14 @@
   font-weight: 900;   /* Heavy = 900 */
   font-style: normal;
 }
+@font-face {
+  font-family: "Fredoka One";
+  src: url("fonts/FredokaOne-Regular.woff2") format("woff2"),
+       url("fonts/FredokaOne-Regular.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
 
 .fg-heavy {
   font-family: "Franklin Gothic Heavy", sans-serif;
@@ -228,3 +236,88 @@ figcaption {
     width: 160px;
     height: 160px;
 }
+
+
+/*delivery banner*/
+.deliverybanner {
+
+}
+
+.deliverybanner img {
+    margin: auto;
+    width: 90%;
+    height: 190px;
+    display: block;
+    bottom: 50px;
+}
+
+.deliverybanner h2 {
+    position: absolute;
+    top: 195vh;
+    width: 100%;
+    text-align: center;
+    font-size: 41px;
+    color: #9C6644;
+    font-family: "Fredoka One",sans-serif;
+    line-height: 1.6;
+}
+.deliverybanner p {
+    position: absolute;
+    top: 215vh;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #7F5539;
+    font-family: 'Inter', sans-serif;
+}
+.delboy{
+
+}
+.delboy img {
+    position: absolute;
+    top: 207vh;
+    left: 54%;
+    width: 50px;
+    height: auto;
+}
+/* Category Section */
+
+  .category-section{
+    margin: 10px;
+    text-align: center;
+}
+  .category-section h1{
+    font-size: 45px;
+    margin-top: 50px;
+  }
+    .types {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 64px;
+  }
+
+  .type-track { 
+    display: flex;
+    transition: transform 5s ease-in-out;
+  }
+
+  .type {
+    min-width: 20%; /* 5 visible */
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .type img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .type p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 35px;
+  }
