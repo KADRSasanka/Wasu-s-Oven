@@ -329,11 +329,10 @@ figcaption {
   /* Our Services */
 
   .services {
-    background-image: url('Resources/bg-services.jpg');
+    background-image: url(Resources/bg-services.jpg);
     margin-top: 8vh;
-    background-position: center;
-    background-size: cover;
   }
+
 
   .services h1 {
     text-align: center;
