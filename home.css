@@ -323,3 +323,37 @@ figcaption {
     font-weight: bold;
     font-size: 35px;
   }
+
+  /* Our Services */
+
+  .services {
+    background-color: antiquewhite;
+  }
+
+
+  .services h1 {
+    text-align: center;
+    font-style: Franklin Gothic Heavy;
+    color: #9C6644;
+    font-weight: 1000;
+
+  }
+
+.service-icons  {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: auto;
+}
+
+.service-icons figure{
+  background-color: #fff;
+}
+
+
+
+.service-icons img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
