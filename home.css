@@ -331,22 +331,6 @@ figcaption {
   /* About Us */
 
   .box{
-<<<<<<< HEAD
-            width: fit-content;;
-            margin: auto;
-            background: white;
-            padding: 40px 30px;
-            border: 1px solid #7F5539;
-            border-radius: 6px;
-            text-align: center;
-            line-height: 1.7;
-            font-size: 18px;
-            color: #7F5539;
-        }
-        .highlight{
-            font-weight: bold;
-            color: #ad7c58;
-=======
     max-width: 800px;
     width: 100%;
     background: white;
@@ -362,7 +346,6 @@ figcaption {
   .highlight{
       font-weight: bold;
       color: #ad7c58;
->>>>>>> 620b9e258afb572052c209e6011aed2f35c5afe9
 
   }
   .logo img{
@@ -414,4 +397,81 @@ figcaption {
   display: block;
   justify-content: center;
   margin: 2rem 3rem 2rem 11rem;
+}
+/* Footer */
+.footer {
+    background: #f4eae2;
+    text-align: center;
+    padding: 40px 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    color: #6b4b3b;
+}
+
+.footer h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.footer-text {
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.icon {
+    font-size: 22px;
+}
+
+.search-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input {
+    width: 260px;
+    padding: 10px 15px;
+    border: 2px solid #c6b3a3;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-btn {
+    padding: 10px 15px;
+    border: 2px solid #c6b3a3;
+    background: white;
+    border-left: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    background: #a97b54;
+    color: white;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 0 0 40px 40px;
+    font-size: 15px;
 }
