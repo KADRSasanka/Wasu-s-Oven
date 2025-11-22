@@ -435,10 +435,12 @@ figcaption {
     justify-content: center;
     gap: 8px;
     font-size: 18px;
+    text-align: center;
 }
 
 .icon {
     font-size: 22px;
+    
 }
 
 .search-box {
