@@ -409,7 +409,7 @@ figcaption {
 
 .blog-box {
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-color: #FFFAF6;
     margin: 10vh 0 10vh 0;
 }
@@ -419,24 +419,56 @@ figcaption {
     font-family: 'Franklin Gothic Heavy';
     color: #9C6644;
     font-size: 42px;
-    padding-top: 2rem;
+    padding-top: 4rem;
+    margin-bottom: 0;
 }
 .beige-panel {
     width: 30%;
-    height: 100%;
+    height: 100.2%;
     background-color: #E6CCB2;
     float: right;
-    margin-top: -13.20vh;
+    margin-top: -15.2vh;
+}
+.middle {
+    width: 95%;
+    height: 69%;
+    /*margin-top: 20%;*/
+    background-color: #FFFAF6;
+    z-index: 10;
+    position: absolute;
+    padding-left: 10%;
+}
+.middle h2 {
+    color: #B08968;
+    font-family: "Fredoka", sans-serif;
+    font-size: 29px;
+    margin-top: 12vh;
+}
+.middle p {
+    color: #7F5539;
+    font-size: 18px;
+    line-height: 35px;
+}
+.middle .owner-img {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float: right;
+    background-image: url('Resources/wasana.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -60.3vh;
 }
 
 /* FOOTER */
 .footer {
     background: #f4eae2;
     text-align: center;
-    padding: 40px 20px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    font-family: "Poppins", sans-serif;
+    padding-top: 40px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    font-family: "Inter", sans-serif;
     color: #6b4b3b;
 }
 
@@ -505,6 +537,6 @@ figcaption {
     color: white;
     margin-top: 40px;
     padding: 20px;
-    border-radius: 0 0 40px 40px;
+    border-radius: 0 0 0 0;
     font-size: 15px;
 }
