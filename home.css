@@ -34,7 +34,7 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Navbar */
+/* NAVBAR */
 
 nav {
     width: 100%;
@@ -73,7 +73,7 @@ nav ul li a:hover {
     color: #9C6644;
 }
 
-/* Hero Section */
+/* HERO SECTION */
 .hero-section {
     width: 100%;
     height: 100vh;
@@ -198,7 +198,7 @@ nav ul li a:hover {
     margin-left: 5.5%;
 }
 
-/* Offers Section */
+/* OFFERS SECTION */
 
 .offers {
     margin: 0 10% 15vh 10%;
@@ -239,8 +239,8 @@ figcaption {
     height: 160px;
 }
 
+/*DELIVERY BANNER*/
 
-/*delivery banner*/
 .deliverybanner {
     position: relative;
 }
@@ -282,7 +282,7 @@ figcaption {
     width: 50px;
     height: auto;
 }
-/* Category Section */
+/* CATEGORY SECTION */
 
 .category-section{
     margin: 12vh 0 12vh 0;
@@ -328,10 +328,10 @@ figcaption {
     color: #7F5539;
   }
 
-  /* About Us */
+  /* ABOUT US */
 
   .box{
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     background: white;
     margin: auto;
@@ -359,15 +359,21 @@ figcaption {
       color: #555;
   }
    
-  /* Our Services */
+  /* OUR SERVICES */
 
   .services {
-    background-image: url(Resources/bg-services.jpg);
-    margin-top: 8vh;
+    background-image: url('Resources/bg-services.jpg');
+    margin-top: 10vh;
+    position: relative;
+    padding: 2vh 0 6vh 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
 
   .services h1 {
+    position: relative;
     text-align: center;
     font-family: 'Franklin Gothic Heavy';
     color: #9C6644;
@@ -398,7 +404,32 @@ figcaption {
   justify-content: center;
   margin: 2rem 3rem 2rem 11rem;
 }
-/* Footer */
+
+/* BLOGS */
+
+.blog-box {
+    width: 100%;
+    height: 50vh;
+    background-color: #FFFAF6;
+    margin: 10vh 0 10vh 0;
+}
+.blog-box h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Heavy';
+    color: #9C6644;
+    font-size: 42px;
+    padding-top: 2rem;
+}
+.beige-panel {
+    width: 30%;
+    height: 100%;
+    background-color: #E6CCB2;
+    float: right;
+    margin-top: -13.20vh;
+}
+
+/* FOOTER */
 .footer {
     background: #f4eae2;
     text-align: center;
