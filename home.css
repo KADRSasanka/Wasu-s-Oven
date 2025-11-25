@@ -286,7 +286,7 @@ figcaption {
 /* CATEGORY SECTION */
 
 .category-section{
-    margin: 12vh 0 12vh 0;
+    margin: -2vh 0 12vh 0;
     text-align: center;
 }
 .category-section button {
@@ -436,7 +436,7 @@ figcaption {
     height: 100.2%;
     background-color: #E6CCB2;
     float: right;
-    margin-top: -15.7vh;
+    margin-top: -16.3vh;
 }
 .middle {
     width: 95%;
@@ -467,7 +467,7 @@ figcaption {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    top: -60.3vh;
+    top: -62.7vh;
 }
 
 /* FOOTER */
