@@ -239,6 +239,7 @@ figcaption {
     width: 160px;
     height: 160px;
 }
+<<<<<<< Updated upstream
 
 /*DELIVERY BANNER*/
 
@@ -549,3 +550,14 @@ figcaption {
     border-radius: 0 0 0 0;
     font-size: 15px;
 }
+=======
+ /*delivery flyer*/
+.sha {
+
+}
+.sha img {
+    width: 100vw;
+    height: 500px;
+    display: block;
+}
+>>>>>>> Stashed changes
