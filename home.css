@@ -277,8 +277,8 @@ figcaption {
 
 }
 .delboy img {
-    position: absolute;
-    top: 203vh;
+    position: relative;
+    top: -22vh;
     left: 55%;
     width: 50px;
     height: auto;
@@ -498,13 +498,13 @@ figcaption {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-bottom: 25px;
+    margin: 0 0 25px 40.75%;
 }
 
 .item {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
     gap: 8px;
     font-size: 18px;
     text-align: center;
@@ -512,7 +512,6 @@ figcaption {
 
 .icon {
     font-size: 22px;
-    
 }
 
 .search-box {
@@ -529,6 +528,7 @@ figcaption {
     border-radius: 6px 0 0 6px;
     outline: none;
     font-size: 16px;
+    margin-right: 1%;
 }
 
 .search-btn {
