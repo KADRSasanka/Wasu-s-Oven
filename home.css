@@ -204,7 +204,7 @@ nav ul li a:hover {
 .offers {
     margin: 0 10% 15vh 10%;
 }
-
+/*
 .offers h2 {
     font-size: 45px;
     font-family: 'Franklin Gothic Heavy';
@@ -220,7 +220,7 @@ nav ul li a:hover {
     color: #7F5539;
     text-align: center;
 }
-
+*/
 .cakes {
     justify-content: space-between;
     display: flex;
