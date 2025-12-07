@@ -415,7 +415,7 @@ figcaption {
   margin: 2rem 3rem 2rem 11rem;
 }
 
-/* BLOGS */
+/* ABOUT US */
 
 .blog-box {
     width: 100%;
@@ -470,7 +470,68 @@ figcaption {
     background-position: center;
     top: -62.7vh;
 }
+      /*blog section begin*/
 
+.blogtitle{
+    text-align: center;
+    font-family: 'Franklin Gothic Heavy';
+    color: #9C6644;
+    font-size: 45px;
+    padding-top: 4rem;
+    margin-bottom: 0;
+}
+.blogtitle h1{
+    font-size: 45px;
+}
+.blog-table {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    align-items: center;
+}
+.blog-post {
+    display: flex;
+    margin-top: 5vh;
+    margin-left: -45px;
+}
+.post {
+    background-color: #FFF5E8;
+    margin-left: 15vw;
+    border-radius: 8px;;
+    border: 4px solid #B08968;
+    width: 465px;
+    height: 79vh;
+
+    
+}
+.text {
+    position: absolute;
+    font-size: 17px;
+    width: 76%;
+    margin-left: 56px;
+    margin-top: 50px;
+    
+}
+.Aha{
+    position: relative;
+    top: -272px;
+    left: -152px;
+}
+.brpost{
+    background-color: #B08968;
+    margin-left: 2vw;
+    border-radius: 8px;
+    width: 465px;
+    height: 41vh;
+    margin-top: -33vh;
+}
+
+.brpost p{
+    color: #ffffff;
+}
+/*  === BLOGS END === */
 /* FOOTER */
 .footer {
     background: #f4eae2;
