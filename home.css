@@ -468,20 +468,19 @@ figcaption {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    top: -62.7vh;
+    top: -60.3vh;
 }
-      /*blog section begin*/
 
-.blogtitle{
+/*Blog section begin*/
+
+.blogtitle h1 {
     text-align: center;
     font-family: 'Franklin Gothic Heavy';
     color: #9C6644;
     font-size: 45px;
     padding-top: 4rem;
     margin-bottom: 0;
-}
-.blogtitle h1{
-    font-size: 45px;
+    font-weight: 1000;
 }
 .blog-table {
     margin: auto;
