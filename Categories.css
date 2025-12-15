@@ -85,7 +85,7 @@ nav ul li a:hover {
 .itemcard {
     width: 271px;
     height: 350px;
-    border: 4px solid #E3B7A0;
+    border: 2px solid #E3B7A0;
     margin: 30px;
 }
 .itemcard img {
@@ -97,17 +97,18 @@ nav ul li a:hover {
 
 .item-card-content {
     text-align: center;
-    margin-top: -14px;
+    margin-top: 15px;
 }
 .liya {
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-left: 5px;
     
 }
 .liya select {
     margin-left: 5px;
-    margin-top: 26px;
+    margin-top: 1px;
     width: 67%;
     max-width: 92px;
     padding: 7px 14px;
@@ -118,11 +119,26 @@ nav ul li a:hover {
     border: 1.5px solid #e6d5c7;
     border-radius: 10px;
     cursor: pointer;
-
 }
-.item-card-content h2 {
+
+.liya select:hover{
+    border-color: #d2b49c;
+}
+
+.liya select:focus{
+    outline: none;
+    border-color: #0a7cff;
+    box-shadow: 0 0 0 2px rgba(10, 124, 255, 0.15);
+}
+.title {
     color: #7F5539;
     margin-bottom: -1px;
+}
+
+.price {
+    color: #7F5539;
+    font-size: 20px;
+    margin-top: 10px;
 }
 .item-card-content button {
     background-color: #EDE0D4;
@@ -136,4 +152,12 @@ nav ul li a:hover {
     margin-top: -3px;
     cursor: pointer;
     border-radius: 50px;
+}
+
+.allcard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 52px;
+    max-width: 1402px;
+    margin: auto;
 }

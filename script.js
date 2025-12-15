@@ -71,3 +71,10 @@
     setInterval(moveSlide, 4000);
 
     // type slider ends
+
+
+    function updatePrice(select) {
+    const card = select.closest(".item-card-content");
+    const priceSpan = card.querySelector(".price span");
+    priceSpan.textContent = select.value;
+}
