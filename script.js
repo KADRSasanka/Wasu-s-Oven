@@ -78,3 +78,13 @@
     const priceSpan = card.querySelector(".price span");
     priceSpan.textContent = select.value;
 }
+
+// Nav bar for mobile
+
+const navbarToggle = document.querySelector('.toggle_menu');
+const navbarMenu = document.querySelector('.navbar_menu');
+
+navbarToggle.addEventListener('click', () => {
+  navbarToggle.classList.toggle('active');
+  navbarMenu.classList.toggle('active');
+});
