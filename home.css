@@ -634,7 +634,7 @@ figcaption {
 
 @media (max-width: 880px) {
 
-
+/* Nav Bar */
     .navbar_container .navbar_menu {
         display: none;
         flex-direction: column;
@@ -645,8 +645,13 @@ figcaption {
         width: 250px;
         top: 0;
         left: 0;
-        padding: 5rem 0 0 1.5rem;
+        padding: 0.5rem 3.6rem 8rem 1.5rem;
+        background-color: #E6CCB2;
 
+    }
+
+    .navbar-logo {
+        align-items: center;
     }
 
     .navbar_container .navbar_menu.active {
@@ -656,7 +661,6 @@ figcaption {
     .toggle_menu {
         display: block;
         z-index: 999;
-        
     }
     .toggle_menu.active .bar:nth-child(2) {
         opacity: 0;
@@ -668,4 +672,5 @@ figcaption {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    
 }
