@@ -651,7 +651,7 @@ figcaption {
     }
 
     .navbar-logo {
-        align-items: center;
+        margin: 0 0 0 21rem;
     }
 
     .navbar_container .navbar_menu.active {
@@ -672,5 +672,14 @@ figcaption {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    
+    .nav_bar {
+        position: absolute;
+        height: 60px;
+    }
+
+    .hero-section {
+        padding-top: 40vh;
+    }
+
+
 }
