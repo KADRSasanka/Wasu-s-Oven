@@ -22,30 +22,40 @@
     <div class="order-form">
     <form> 
         <h2>Place Your Order...</h2>
+        <div class="order-all">
+            <div class="custom-order">
+                <label for="custom-orders">
+                    For Custom Orders... <br> 
+                    <textarea name="custom order discription" id="custom-discription" class="custom-discription" rows="5" placeholder="Discribe Your Order..."></textarea>
+                </label>
+            </div>
+            <div class="order-details">
         <label for="Order-name">
             Full Name :<br>
-            <input type="text" id="name" class="name" placeholder="Full Name" required>
+            <input type="text" id="name" class="name" placeholder="Full Name" required> <br>
         </label>
         <!-- <label for="address">
             Deliver Address :<br>
-             <input type="text" id="name" class="" placeholder="Deliver Address" required
-             ></label> -->
+             <input type="text" id="name" class="" placeholder="Deliver Address" required> <br>
+            </label> -->
         <label for="Delivery-date">   
             Deliver Date :<br>
-            <input type="text" id="date" class="date" placeholder="Delivery Date" required>
+            <input type="text" id="date" class="date" placeholder="Delivery Date" required> <br>
         </label>
         <label for="email">
             Email :<br>
-            <input type="email" id="email" class="email" placeholder="Email Address" required>
+            <input type="email" id="email" class="email" placeholder="Email Address" required> <br>
         </label>
         <label for="tel-Number">
             Telephone Number :<br>
-            <input type="tel" id="tel-number" class="tel-number" placeholder="Telephone Number" required>
+            <input type="tel" id="tel-number" class="tel-number" placeholder="Telephone Number" required> <br>
         </label>
         <label for="amount">
             Amount :<br>
-            <input type="number" id="amount" class="amount" min="0.5" max="10" placeholder="Amount" required> KG
+            <input type="number" id="amount" class="amount" min="0.5" max="10" placeholder="Amount" required> <br> KG
         </label>
+        </div>
+        </div>
         <button class="submit-button">Submit Order <i class="fa fa-arrow-right"></i></button>
     </form>
     </div>

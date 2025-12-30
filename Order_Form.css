@@ -59,6 +59,10 @@ body {
     padding: 0rem 0rem 0rem 5rem;
 }
 
+.order-form h2 {
+  align-items: center;
+}
+
 
 .submit-button {
     width: 10rem;
@@ -72,4 +76,10 @@ body {
 .order-form .amount {
     width: 25%;
     padding: 0rem 0rem 0rem 0rem;
+}
+
+.order-all {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
 }
