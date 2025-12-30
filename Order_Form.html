@@ -2,35 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Resources/Wasu's Oven Log.png" type="image/x-icon">
+    <title>Wasu's Oven</title>
+    <!--Embed Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@105.8,300..700&display=swap" rel="stylesheet">
+    <!--Embed FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="semantic.css">
+    <link rel="stylesheet" href="Order_Form.css">
 </head>
 <body>
-    <form class="orderForm"> 
+    <div class="order-form">
+    <form> 
         <label for="Order-name">
-            Name :
-            <input type="text" id="name" placeholder="" required>
+            Full Name :<br>
+            <input type="text" id="name" placeholder="Full Name" required>
         </label>
         <label for="address">
-            Deliver Address :
-             <input type="text" id="name" placeholder="" required
+            Deliver Address :<br>
+             <input type="text" id="name" placeholder="Deliver Address" required
              ></label>
-        <label for="size">
-            Deliver Date :
-            <input type="text" id="name" placeholder="" required>
+        <label for="D-date">
+            Deliver Date :<br>
+            <input type="text" id="name" placeholder="Delivery Date" required>
         </label>
-        <label for="order-date">
-            Email :
-            <input type="text" id="name" placeholder="" required>
+        <label for="email">
+            Email :<br>
+            <input type="text" id="name" placeholder="Email Address" required>
         </label>
-        <label for="">
-            Telephone Number :
-            <input type="text" id="name" placeholder="" required>
-        </label>
-        <label for="">
-            <input type="text" id="name" placeholder="" required>
+        <label for="tel-Number">
+            Telephone Number :<br>
+            <input type="text" id="name" placeholder="Telephone Number" required>
         </label>
         <button class="submit_order">Submit order</button>
     </form>
+    </div>
 </body>
 </html>
