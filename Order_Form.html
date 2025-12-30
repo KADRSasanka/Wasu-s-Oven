@@ -21,27 +21,32 @@
 <body>
     <div class="order-form">
     <form> 
+        <h2>Place Your Order...</h2>
         <label for="Order-name">
             Full Name :<br>
-            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="text" id="name" class="name" placeholder="Full Name" required>
         </label>
-        <label for="address">
+        <!-- <label for="address">
             Deliver Address :<br>
-             <input type="text" id="name" placeholder="Deliver Address" required
-             ></label>
+             <input type="text" id="name" class="" placeholder="Deliver Address" required
+             ></label> -->
         <label for="D-date">
             Deliver Date :<br>
-            <input type="text" id="name" placeholder="Delivery Date" required>
+            <input type="text" id="date" class="date" placeholder="Delivery Date" required>
         </label>
         <label for="email">
             Email :<br>
-            <input type="text" id="name" placeholder="Email Address" required>
+            <input type="email" id="email" class="email" placeholder="Email Address" required>
         </label>
         <label for="tel-Number">
             Telephone Number :<br>
-            <input type="text" id="name" placeholder="Telephone Number" required>
+            <input type="tel" id="tel-number" class="tel-number" placeholder="Telephone Number" required>
         </label>
-        <button class="submit_order">Submit order</button>
+        <label for="amount">
+            Amount :<br>
+            <input type="number" id="amount" class="amount" min="0.5" max="10" placeholder="Amount" required> KG
+        </label>
+        <button class="submit-button">Submit order</button>
     </form>
     </div>
 </body>
