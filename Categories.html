@@ -568,7 +568,7 @@
             </select>
             </div>
             <p class="price">Rs. <span> 4500</span></p>
-            <button class="order-btn">Order Now</button>
+            <button class="order-btn" onclick="setOrder('cake01')">Order Now</button>
         </div>
     </div>
     </div>
@@ -594,7 +594,7 @@
             </select>
             </div>
             <p class="price">Rs. <span> 4500</span></p>
-            <button class="order-btn">Order Now</button>
+            <button class="order-btn" onclick="setOrder('cake01')">Order Now</button>
         </div>
     </div>
 
@@ -661,6 +661,7 @@
       <h2>Item id-001 </h2>
 
       <form onsubmit="sendToWhatsApp(); return false;">
+        <input type="hidden" id="orderId">
         <input type="text" id="name" placeholder="Your Name" required>
         <input type="tel" id="phone" placeholder="Phone Number" required>
 
