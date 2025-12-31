@@ -682,4 +682,23 @@ figcaption {
     .hero-section {
         padding-top: 40vh;
     }
+    
+    .caption {
+        font-size: 1rem;
+        margin-right: 10rem;
+    }
+
+    .offers .cakes,
+    .services .service-icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .services .service-icons {
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    .service-icons img {
+        margin-left: 6rem;
+    }
 }
