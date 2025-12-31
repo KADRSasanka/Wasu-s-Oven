@@ -132,8 +132,14 @@ navbarToggle.addEventListener('click', () => {
     }
 
 
-    function updatePrice(select) {
+    function updatePrize(select) {
     const card = select.closest(".ahaliya");
+    const priceSpan = card.querySelector(".price span");
+    priceSpan.textContent = select.value;
+}
+
+    function updatePrice(select) {
+    const card = select.closest(".item-card-content");
     const priceSpan = card.querySelector(".price span");
     priceSpan.textContent = select.value;
 }
