@@ -102,8 +102,8 @@ nav ul li a:hover {
 .liya {
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin-left: 5px;
+    justify-content: space-around;
+    /*margin-left: 5px;*/
     
 }
 .liya select {
