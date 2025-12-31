@@ -164,19 +164,6 @@ nav ul li a:hover {
 
 /*order form modal*/
 
-
-
-    /* Order Button */
-    .order-btn {
-      padding: 15px 35px;
-      font-size: 18px;
-      background: #e91e63;
-      color: white;
-      border: none;
-      border-radius: 30px;
-      cursor: pointer;
-    }
-
     /* Modal Background */
     .modal {
       display: none;
