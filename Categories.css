@@ -161,3 +161,99 @@ nav ul li a:hover {
     max-width: 1402px;
     margin: auto;
 }
+
+/*order form modal*/
+
+
+
+    /* Order Button */
+    .order-btn {
+      padding: 15px 35px;
+      font-size: 18px;
+      background: #e91e63;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
+    /* Modal Background */
+    .modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 999;
+    }
+
+    /* Modal Box */
+    .modal-content {
+      background: #fff;
+      width: 90%;
+      max-width: 420px;
+      margin: 80px auto;
+      padding: 25px;
+      border-radius: 15px;
+      position: relative;
+      animation: pop 0.3s ease;
+    }
+
+    @keyframes pop {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .modal-content h2 {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #e91e63;
+    }
+
+    /* Close Button */
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    /* Form Fields */
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    /* Submit Button */
+    .submit-btn {
+      background: #25D366;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      width: 100%;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      opacity: 0.9;
+    }
+    h3{
+        text-align: center;
+    }
+
+    /* Mobile Fix */
+    @media (max-height: 600px) {
+      .modal-content {
+        margin: 40px auto;
+      }
+    }

@@ -71,7 +71,8 @@
             </select>
             </div>
             <p class="price">Rs. <span> 4500</span></p>
-            <button class="order-btn">Order Now</button>
+            <button class="order-btn" onclick="openOrderForm()" >Order Now</button></a>
+
         </div>
     </div>
 
@@ -630,8 +631,48 @@
     </div>
 
 
+        <!--Order Form Modal-->
+    <div class="modal" id="orderModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeOrderForm()">&times;</span>
 
+      <h2>Place Your Order</h2>
+      <h2>Item id-001 </h2>
 
+      <form onsubmit="sendToWhatsApp(); return false;">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+
+        <select id="cakeType" required>
+          <option value="">Cake Type</option>
+          <option>Birthday Cake</option>
+          <option>Wedding Cake</option>
+          <option>Custom Cake</option>
+        </select>
+
+        <p>Delivery date</p>
+        <input type="date" id="date" required>
+        <div class="ahaliya">
+            <div class="liyaa">           
+            <select onchange="updatePrice(this)">
+                <option value="0.00">Size</option>
+                <option value="4500.00">1 Kg</option>
+                <option value="2500.00">0.5 Kg</option>
+                <option value="6500.00">1.5 Kg</option>
+                <option value="8500.00">2 Kg</option>
+            </select>
+            </div>
+
+        <textarea id="message" placeholder="Message on Cake"></textarea>
+            
+            <h3><p class="price">Rs. <span> 0.00</span></p></h3>
+
+        <button type="submit" class="submit-btn">
+          Order via WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
 
 <script src="script.js"></script>
 </body>

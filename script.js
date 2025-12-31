@@ -88,3 +88,49 @@ navbarToggle.addEventListener('click', () => {
   navbarToggle.classList.toggle('active');
   navbarMenu.classList.toggle('active');
 });
+
+
+ function openOrderForm() {
+      document.getElementById("orderModal").style.display = "block";
+    }
+
+    function closeOrderForm() {
+      document.getElementById("orderModal").style.display = "none";
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+      let modal = document.getElementById("orderModal");
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    //order form
+    function sendToWhatsApp() {
+      let name = document.getElementById("name").value;
+      let phone = document.getElementById("phone").value;
+      let cakeType = document.getElementById("cakeType").value;
+      let date = document.getElementById("date").value;
+      let message = document.getElementById("message").value;
+
+      let whatsappNumber = "94768590559";
+
+      let text =
+        `🍰 *New Cake Order*%0A%0A` +
+        `👤 Name: ${name}%0A` +
+        `📞 Phone: ${phone}%0A` +
+        `🎂 Cake Type: ${cakeType}%0A` +
+        `📅 Event Date: ${date}%0A` +
+        `📝 Message: ${message}`;
+
+      let url = `https://wa.me/${+94768590559}?text=${text}`;
+      window.open(url, "_blank");
+    }
+
+
+    function updatePrice(select) {
+    const card = select.closest(".ahaliya");
+    const priceSpan = card.querySelector(".price span");
+    priceSpan.textContent = select.value;
+}
