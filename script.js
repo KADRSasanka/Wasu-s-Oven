@@ -107,8 +107,8 @@ navbarToggle.addEventListener('click', () => {
     }
 
     //order form
+
     function sendToWhatsApp() {
-      let orderId = document.getElementById("orderId").value
       let name = document.getElementById("name").value;
       let phone = document.getElementById("phone").value;
       let cakeType = document.getElementById("cakeType").value;
@@ -123,16 +123,23 @@ navbarToggle.addEventListener('click', () => {
         `📞 Phone: ${phone}%0A` +
         `🎂 Cake Type: ${cakeType}%0A` +
         `📅 Event Date: ${date}%0A` +
-        `📝 Message: ${message}`
-        `order id : ${orderId}`;
+        `📝 Message: ${message}`;
+
+        
 
       let url = `https://wa.me/${+94768590559}?text=${text}`;
       window.open(url, "_blank");
     }
 
 
-    function updatePrice(select) {
+    function updatePrize(select) {
     const card = select.closest(".ahaliya");
+    const priceSpan = card.querySelector(".price span");
+    priceSpan.textContent = select.value;
+}
+
+    function updatePrice(select) {
+    const card = select.closest(".item-card-content");
     const priceSpan = card.querySelector(".price span");
     priceSpan.textContent = select.value;
 }
