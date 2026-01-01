@@ -196,11 +196,28 @@
         <h1>ANNIVERSERY CAKES</h1>
     </div>
     <div class="allcard">
+        <div class="itemcard">
+            <img src="Resources/BD .jpg" alt="Anniversery Cake">
+            <div class="item-card-content">
+                <div class="liya">           
+                <h3> Anniversery Cake</h3>
+                <select onchange="updatePrice(this)">
+                    <option value="4500">1 Kg</option>
+                    <option value="2500">0.5 Kg</option>
+                    <option value="6500">1.5 Kg</option>
+                    <option value="8500">2 Kg</option>
+                </select>
+            </div>
+            <p class="price">Rs. <span> 4500</span></p>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </div>
+
     <div class="itemcard">
             <img src="Resources/BD .jpg" alt="Anniversery Cake">
         <div class="item-card-content">
             <div class="liya">           
-            <h2> Anniversery Cake</h2>
+            <h3> Anniversery Cake</h3>
             <select onchange="updatePrice(this)">
                 <option value="4500">1 Kg</option>
                 <option value="2500">0.5 Kg</option>
@@ -217,7 +234,7 @@
             <img src="Resources/BD .jpg" alt="Anniversery Cake">
         <div class="item-card-content">
             <div class="liya">           
-            <h2> Anniversery Cake</h2>
+            <h3> Anniversery Cake</h3>
             <select onchange="updatePrice(this)">
                 <option value="4500">1 Kg</option>
                 <option value="2500">0.5 Kg</option>
@@ -234,24 +251,7 @@
             <img src="Resources/BD .jpg" alt="Anniversery Cake">
         <div class="item-card-content">
             <div class="liya">           
-            <h2> Anniversery Cake</h2>
-            <select onchange="updatePrice(this)">
-                <option value="4500">1 Kg</option>
-                <option value="2500">0.5 Kg</option>
-                <option value="6500">1.5 Kg</option>
-                <option value="8500">2 Kg</option>
-            </select>
-            </div>
-            <p class="price">Rs. <span> 4500</span></p>
-            <button class="order-btn">Order Now</button>
-        </div>
-    </div>
-
-    <div class="itemcard">
-            <img src="Resources/BD .jpg" alt="Anniversery Cake">
-        <div class="item-card-content">
-            <div class="liya">           
-            <h2> Anniversery Cake</h2>
+            <h3> Anniversery Cake</h3>
             <select onchange="updatePrice(this)">
                 <option value="4500">1 Kg</option>
                 <option value="2500">0.5 Kg</option>
@@ -657,7 +657,7 @@
     <div class="modal-content">
       <span class="close-btn" onclick="closeOrderForm()">&times;</span>
 
-      <h2>Place Your Order</h2>
+      <h2>PLACE YOUR ORDER</h2>
       <h2>Item id-001 </h2>
 
       <form onsubmit="sendToWhatsApp(); return false;">
@@ -690,7 +690,7 @@
             <h3><p class="price">Rs. <span> 0.00</span></p></h3>
 
         <button type="submit" class="submit-btn">
-          Order via WhatsApp
+            Order via WhatsApp
         </button>
       </form>
     </div>

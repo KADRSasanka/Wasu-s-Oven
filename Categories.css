@@ -75,6 +75,11 @@ nav ul li a:hover {
 
 /*  Birthday Cake Section  */
 
+.anniversary-sect .allcard .itemcard .item-card-content .liya h3, 
+.flower-sect .allcard .itemcard .item-card-content .liya h2 {
+  font-size: 21px;
+}
+
 .setitle {
     text-align: center;
     margin-top: 40px;
@@ -221,7 +226,7 @@ nav ul li a:hover {
 
     /* Submit Button */
     .submit-btn {
-      background: #25D366;
+      background: #088536fa;
       color: white;
       border: none;
       padding: 12px;
