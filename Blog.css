@@ -63,21 +63,21 @@ h1 {
     height: 1086px;
     width: 631px;
     background-color: #EDE0D4;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .card2 {
     height: 445px;
     width: 610px;
     background-color: #DDB892;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .card3 {
     height: 1070px;
     width: 570px;
     background-color: #DDB892;
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-top: 3rem;
 }
 
@@ -85,7 +85,7 @@ h1 {
     height: 1086px;
     width: 610px;
     background-color: #E6CCB2;
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-top: -36rem;
 }
 
@@ -93,29 +93,29 @@ h1 {
     height: 535px;
     width: 610px;
     background-color: #E6CCB2;
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-top: 3rem;
 }
 
 .card6 {
-    height: 1086px;
+    height: 590px;
     width: 610px;
     background-color: #EDE0D4;
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-top: -32rem;
 }
 
 .card7 {
-    height: 855px;
+    height: 640px;
     width: 610px;
     background-color: #EDE0D4;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .card8 {
-    height: 1086px;
+    height: 1120px;
     width: 610px;
     background-color: #DDB892;
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-top: -30rem;
 }
