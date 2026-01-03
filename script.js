@@ -90,7 +90,8 @@ navbarToggle.addEventListener('click', () => {
 });
 
 
- function openOrderForm() {
+ function openOrderForm(id) {
+      document.getElementById("itemId").value = "Item ID: " + id;
       document.getElementById("orderModal").style.display = "block";
     }
 
@@ -109,6 +110,7 @@ navbarToggle.addEventListener('click', () => {
     //order form
 
     function sendToWhatsApp() {
+      let id = document.getElementById("itemId").value;
       let name = document.getElementById("name").value;
       let phone = document.getElementById("phone").value;
       let cakeType = document.getElementById("cakeType").value;
@@ -121,6 +123,7 @@ navbarToggle.addEventListener('click', () => {
         `🍰 *New Cake Order*%0A%0A` +
         `👤 Name: ${name}%0A` +
         `📞 Phone: ${phone}%0A` +
+        `🆔 ${id}%0A` +
         `🎂 Cake Type: ${cakeType}%0A` +
         `📅 Event Date: ${date}%0A` +
         `📝 Message: ${message}`;
