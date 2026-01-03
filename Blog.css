@@ -35,9 +35,11 @@ body {
 }
 
 /* Title */
-h2 {
+h1 {
     text-align: center;
     color: #9C6644;
+    font-family: 'Franklin Gothic Heavy';
+    font-weight: bold;
 }
 
 /* Grid */
@@ -46,7 +48,7 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     width: 100%;
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 6rem 0rem 0rem 0rem;
     margin: 0rem 0rem 0rem 0rem;
 
 }
@@ -65,50 +67,55 @@ h2 {
 }
 
 .card2 {
-    height: 1086px;
-    width: 610x;
-    background-color: #EDE0D4;
+    height: 445px;
+    width: 610px;
+    background-color: #DDB892;
     border-radius: 1rem;
 }
 
 .card3 {
-    height: 1086px;
-    width: 610x;
-    background-color: #EDE0D4;
+    height: 1070px;
+    width: 570px;
+    background-color: #DDB892;
     border-radius: 1rem;
+    margin-top: 3rem;
 }
 
 .card4 {
     height: 1086px;
-    width: 610x;
-    background-color: #EDE0D4;
+    width: 610px;
+    background-color: #E6CCB2;
     border-radius: 1rem;
+    margin-top: -36rem;
 }
 
 .card5 {
-    height: 1086px;
-    width: 610x;
-    background-color: #EDE0D4;
+    height: 535px;
+    width: 610px;
+    background-color: #E6CCB2;
     border-radius: 1rem;
+    margin-top: 3rem;
 }
 
 .card6 {
     height: 1086px;
-    width: 610x;
+    width: 610px;
     background-color: #EDE0D4;
     border-radius: 1rem;
+    margin-top: -32rem;
 }
 
 .card7 {
-    height: 1086px;
-    width: 610x;
+    height: 855px;
+    width: 610px;
     background-color: #EDE0D4;
     border-radius: 1rem;
 }
 
 .card8 {
     height: 1086px;
-    width: 610x;
-    background-color: #EDE0D4;
+    width: 610px;
+    background-color: #DDB892;
     border-radius: 1rem;
+    margin-top: -30rem;
 }
