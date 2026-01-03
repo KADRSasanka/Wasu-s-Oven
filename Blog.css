@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Franklin Gothic Heavy";
+  src: url("fonts/FranklinGothicHeavy.woff2") format("woff2"),
+       url("fonts/FranklinGothicHeavy.woff") format("woff");
+  font-weight: 900;   /* Heavy = 900 */
+  font-style: normal;
+}
+
+.fg-heavy {
+  font-family: "Franklin Gothic Heavy", sans-serif;
+}
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.fredoka-one {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 105.8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
