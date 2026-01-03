@@ -89,7 +89,7 @@ nav ul li a:hover {
 
 .itemcard {
     width: 271px;
-    height: 350px;
+    height: 378px;
     border: 2px solid #E3B7A0;
     margin: 30px;
 }
@@ -169,7 +169,7 @@ nav ul li a:hover {
 
 /*order form modal*/
 
-    /* Modal Background */
+
     .modal {
       display: none;
       position: fixed;
@@ -178,7 +178,7 @@ nav ul li a:hover {
       z-index: 999;
     }
 
-    /* Modal Box */
+
     .modal-content {
       background: #fff;
       width: 90%;
@@ -201,7 +201,7 @@ nav ul li a:hover {
       color: #e91e63;
     }
 
-    /* Close Button */
+
     .close-btn {
       position: absolute;
       top: 10px;
@@ -210,7 +210,7 @@ nav ul li a:hover {
       cursor: pointer;
     }
 
-    /* Form Fields */
+
     input, select, textarea {
       width: 100%;
       padding: 10px;
@@ -224,7 +224,7 @@ nav ul li a:hover {
       resize: none;
     }
 
-    /* Submit Button */
+   
     .submit-btn {
       background: #088536fa;
       color: white;
@@ -243,7 +243,7 @@ nav ul li a:hover {
         text-align: center;
     }
 
-    /* Mobile Fix */
+  
     @media (max-height: 600px) {
       .modal-content {
         margin: 40px auto;

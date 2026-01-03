@@ -119,3 +119,12 @@ h1 {
     border-radius: 2rem;
     margin-top: -30rem;
 }
+
+/* Hover 
+
+.card1:hover {
+    width: 1086px;
+    height: 500px;
+    padding: 120rem;
+    transition: 2s, 2s;
+ } */

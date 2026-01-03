@@ -90,7 +90,8 @@ navbarToggle.addEventListener('click', () => {
 });
 
 
- function openOrderForm() {
+ function openOrderForm(id) {
+      document.getElementById("itemId").value = "Item ID: " + id;
       document.getElementById("orderModal").style.display = "block";
     }
 
@@ -109,25 +110,27 @@ navbarToggle.addEventListener('click', () => {
     //order form
 
     function sendToWhatsApp() {
+      let id = document.getElementById("itemId").value;
       let name = document.getElementById("name").value;
       let phone = document.getElementById("phone").value;
       let cakeType = document.getElementById("cakeType").value;
       let date = document.getElementById("date").value;
       let message = document.getElementById("message").value;
 
-      let whatsappNumber = "94768590559";
+      let whatsappNumber = "94769977820";
 
       let text =
         `🍰 *New Cake Order*%0A%0A` +
         `👤 Name: ${name}%0A` +
         `📞 Phone: ${phone}%0A` +
+        `🆔 ${id}%0A` +
         `🎂 Cake Type: ${cakeType}%0A` +
         `📅 Event Date: ${date}%0A` +
         `📝 Message: ${message}`;
 
         
 
-      let url = `https://wa.me/${+94768590559}?text=${text}`;
+      let url = `https://wa.me/${+94769977820}?text=${text}`;
       window.open(url, "_blank");
     }
 
