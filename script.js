@@ -117,7 +117,7 @@ navbarToggle.addEventListener('click', () => {
       let date = document.getElementById("date").value;
       let message = document.getElementById("message").value;
 
-      let whatsappNumber = "94768590559";
+      let whatsappNumber = "94769977820";
 
       let text =
         `🍰 *New Cake Order*%0A%0A` +
@@ -130,7 +130,7 @@ navbarToggle.addEventListener('click', () => {
 
         
 
-      let url = `https://wa.me/${+94768590559}?text=${text}`;
+      let url = `https://wa.me/${+94769977820}?text=${text}`;
       window.open(url, "_blank");
     }
 
