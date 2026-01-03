@@ -632,7 +632,7 @@ figcaption {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 880px) {
+@media (max-width: 480px) {
 
 /* Nav Bar */
     .navbar_container .navbar_menu {
@@ -640,24 +640,27 @@ figcaption {
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        height: 50vh;
-        width: 200%;
+        height: 60vh;
+        width: 100%;
         top: 0;
         left: 0;
-        padding: 1rem 2.5rem 1rem 2.5rem;
+        padding: 3.5rem 2.5rem 1rem 3.5rem;
         background-color: #E6CCB2;
 
     }
     .navbar_container {
-        /*background-color: rgb(242 220 204);*/
-        padding: 0 0 0 0;
+        background-color: rgb(242 220 204);
+        padding: 10px 10px 10px 10px;
         justify-content: space-between;
+        width: 100%;
     }
 
     .navbar-logo {
-        margin: 0.75vh 0 0 185%;
         height: 50px;
         width: 50px;
+        position: relative;
+        float: right;
+        margin-right: 2%;
     }
 
     nav ul {
@@ -699,6 +702,7 @@ figcaption {
     .nav_bar {
         position: absolute;
         height: 60px;
+        width: 88%;
     }
 
     /* Hero-Section */
