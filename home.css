@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
 .fg-heavy {
   font-family: "Franklin Gothic Heavy", sans-serif;
 }
@@ -546,6 +550,22 @@ figcaption {
 }
 
 .brpost p{
+    color: #ffffff;
+}
+
+
+
+.blogtitle button {
+    position:absolute;
+    font-size: 25px;
+    padding: 12px 24px;
+    left: 43vw;
+    border-radius: 10px;
+    border: 2px solid #7F5539;
+    margin-top: -24vh;
+}
+.blogtitle button:hover {
+    background-color: #7F5539;
     color: #ffffff;
 }
 /*  === BLOGS END === */

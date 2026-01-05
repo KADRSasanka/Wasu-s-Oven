@@ -146,3 +146,19 @@ navbarToggle.addEventListener('click', () => {
     const priceSpan = card.querySelector(".price span");
     priceSpan.textContent = select.value;
 }
+
+//Smooth scrolling
+
+const toggleBtn = document.querySelector('.toggle_menu');
+const navMenu = document.querySelector('.navbar_menu');
+
+toggleBtn.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
+
+/* Smooth scroll + auto close */
+document.querySelectorAll('.navbar_menu a[href^="#"]').forEach(link => {
+  link.addEventListener('click', () => {
+    navMenu.classList.remove('active');
+  });
+});
