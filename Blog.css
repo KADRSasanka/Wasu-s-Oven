@@ -32,6 +32,7 @@
 
 body {
     background-color: #f5f5f5;
+    padding-top: 4vh;
 }
 
 /* Title */
@@ -40,6 +41,7 @@ h1 {
     color: #9C6644;
     font-family: 'Franklin Gothic Heavy';
     font-weight: bold;
+    font-size: 50px;
 }
 
 /* Grid */
@@ -48,8 +50,8 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     width: 100%;
-    padding: 6rem 0rem 0rem 0rem;
-    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 3rem 0rem 0rem 0rem;
 
 }
 
@@ -119,3 +121,12 @@ h1 {
     border-radius: 2rem;
     margin-top: -30rem;
 }
+
+/* Hover 
+
+.card1:hover {
+    width: 1086px;
+    height: 500px;
+    padding: 120rem;
+    transition: 2s, 2s;
+ } */

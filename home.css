@@ -164,7 +164,6 @@ nav ul li a:hover {
     top: auto;
 }
 .caption img {
-      
       width: 100px;
       height: 100px;
       margin-top: 20px;
@@ -652,7 +651,7 @@ figcaption {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 880px) {
+@media (max-width: 480px) {
 
 /* Nav Bar */
     .navbar_container .navbar_menu {
@@ -660,24 +659,27 @@ figcaption {
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        height: 50vh;
-        width: 200%;
+        height: 60vh;
+        width: 100%;
         top: 0;
         left: 0;
-        padding: 1rem 2.5rem 1rem 2.5rem;
+        padding: 3.5rem 2.5rem 1rem 3.5rem;
         background-color: #E6CCB2;
 
     }
     .navbar_container {
         /*background-color: rgb(242 220 204);*/
-        padding: 0 0 0 0;
+        padding: 10px 10px 10px 10px;
         justify-content: space-between;
+        width: 100%;
     }
 
     .navbar-logo {
-        margin: 0.75vh 0 0 185%;
         height: 50px;
         width: 50px;
+        position: relative;
+        float: right;
+        margin-right: 2%;
     }
 
     nav ul {
@@ -719,6 +721,7 @@ figcaption {
     .nav_bar {
         position: absolute;
         height: 60px;
+        width: 100%;
     }
 
     /* Hero-Section */
@@ -726,18 +729,69 @@ figcaption {
     .hero-section {
         padding-top: 0vh;
     }
-    
+    .slide img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        display: block;
+    }
+    .slider-container{
+        top: 0vh;
+    }
     .caption {
         font-size: 1rem;
-        margin-right: 10rem;
+        margin-left: 24%;
+        width: 300px;
+        height: auto;
     }
-    /* offers & Services */
+    .caption img {
+        width: 37.5px;
+        height: 37.5px;
+        margin-top: -55px;
+    }
+    .caption h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 7.5px;
+    }
+    .caption p {
+        font-size: 9px;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    .caption button {
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 6px 12px;
+        border: 1px solid #fff;
+    }
+
+    /* OFFERS */
     .offers .cakes,
     .services .service-icons {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
+    .offers {
+        margin: -50vh 5% 10vh 5%;
+    }
+    .offers img {
+        width: 110px; height: 110px;
+    }
+    figcaption {
+        margin-left: -20px;
+    }
+
+    /* DELIVERY BANNER */
+    .deliverybanner h2 {
+        font-size: 38px;
+    }
+    .delboy img {
+        left: 65.5%;
+        top: -21.5vh;
+    }
+
     .services .service-icons {
         padding: 0rem 2rem 0rem 2rem;
     }
