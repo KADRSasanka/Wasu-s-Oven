@@ -42,7 +42,7 @@ body {
 
 .navbar_container {
     width: 100%;
-    position: fixed;
+    position: relative;
     height: auto;
     /*background-color: rgb(242 220 204);*/
     display: flex;
